@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font Caveat Brush */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.caveat {
+    font-family: 'Caveat Brush', cursive;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #775f32;
+}
+
+::selection {
+    color: #fff;
+    background: #775f32;
+}
+
+body {
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none
+}
+
+
+
+/* burger */
