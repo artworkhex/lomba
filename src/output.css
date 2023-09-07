@@ -668,10 +668,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\/asset\/bg\.jpg\)\] {
-  background-image: url(/asset/bg.jpg);
-}
-
 .bg-\[url\(\.\.\/asset\/bg\.jpg\)\] {
   background-image: url(../asset/bg.jpg);
 }
@@ -821,8 +817,6 @@ body {
   -webkit-user-select: none
 }
 
-/* burger */
-
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -908,3 +902,6 @@ body {
     line-height: 1;
   }
 }
+
+
+
