@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Budaya Indonesia</title>
     <link href="src/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/animasi.css">
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="icon" href="" media="(prefers-color-scheme: light)">
     <link rel="icon" href="" media="(prefers-color-scheme: dark)">
 </head>
@@ -14,23 +15,45 @@
 <body class="p-0 m-0 overflow-x-hidden ">
     <header class="bg-[url(../asset/bg.jpg)] bg-no-repeat bg-center  bg-cover w-screen h-screen   ">
         <!-- navbar -->
-        <nav
-            class="animasi2 flex justify-between bg-[#C7B7A1] shadow-lg px-5 mx-10 py-3 rounded-3xl mt-4 text-sm lg1:text-2xl items-center ">
-            <a href="#">
+        <!-- <nav
+            class="animasi2 flex justify-between    py-3 text-sm  items-center ">
+            <a href="index.html">
                 <div class="px-4 font-bold text-white">BUDAYA<span class="text-[#2F2D30]">KAMI</span></div>
             </a>
             <div class=" hidden lg1:flex">
-                <a href="#">
-                    <div class="px-7 hover:scale-110 hover:font-bold duration-300">Home</div>
+                <a href="index.html">
+                    <div class="  ">Home</div>
                 </a>
-                <a href="#">
-                    <div class="px-7 hover:scale-110 hover:font-bold duration-300">About</div>
+                <a href="budaya.html">
+                    <div class="px-7 hover:scale-110 hover:font-bold duration-300">Budaya</div>
                 </a>
-                <a href="#">
-                    <div class="px-7 hover:scale-110 hover:font-bold duration-300">Gallery</div>
+                <a href="aksara.html">
+                    <div class="px-7 hover:scale-110 hover:font-bold duration-300">Aksara</div>
                 </a>
             </div>
             <div class="px-4">burger</div>
+        </nav> -->
+        <nav id='menu' class="animasi2 bg-[#C7B7A1] h-[50px] lg1:h-[65px] shadow-lg mx-10  rounded-3xl mt-4 lg1:text-2xl z-50  ">
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+                <li><a class="px-7 lg1:text-black text-white hover:scale-110 hover:font-bold  py-3 duration-300 "
+                        href='http://'>Home</a></li>
+                <li><a class="px-7 lg1:text-black text-white hover:scale-110 hover:font-bold  py-3 duration-300 "
+                        href='http://'>Fyi</a></li>
+                <li><a class="px-7 lg1:text-black text-white hover:scale-110 hover:font-bold  py-3 duration-300 "
+                        href='http://'>Aksara</a></li>
+                <li><a class="px-7 lg1:text-black text-white hover:scale-110 hover:font-bold  py-3 duration-300 "
+                        href='http://'>Budaya</a></li>
+                <li><a class="px-7 lg1:text-black text-white hover:scale-110 hover:font-bold  py-3 duration-300 "
+                        class='dropdown-arrow' href='http://'>More</a>
+                    <ul class='sub-menus'>
+                        <li><a href='http://'>Products 1</a></li>
+                        <li><a href='http://'>Products 2</a></li>
+                        <li><a href='http://'>Products 3</a></li>
+                        <li><a href='http://'>Products 4</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
         <!--  -->
 
@@ -52,9 +75,9 @@
 
 
     <!-- konten1 -->
-    <div class="w-screen py-28 lg1:px-16 bg-[#6F584E]  lg1:flex lg1:justify-center items-center">
-        <img class=" w-[300px] lg1:w-[750px] mr-3" src="../asset/img2.png" alt="">
-        <div class="ml-6 text-white">
+    <div class="w-screen py-28 px-10 lg1:px-16 bg-[#6F584E]  lg1:flex lg1:justify-center items-center">
+        <img class=" w-[800px] " src="../asset/img2.png" alt="">
+        <div class="lg1:ml-10 text-white">
             <!-- <div class="h-[2px] bg-white w-[250px]"></div> -->
             <div class="text-4xl lg1:text-7xl font-bold caveat">Budaya dan keindahan Indonesia</div>
             <div class="text-2xl  lg1:text-3xl">keindahan dan kelangkaan budaya indonesia</div>
@@ -66,7 +89,7 @@
     </div>
     <!-- konten2 -->
     <div class=" pl-5 lg1:pl-52 px-10 lg1:px-56 py-28 text-base md1:text-2xl lg1:text-3xl">
-        <div class=" text-4xl lg1:text-7xl font-bold caveat ">
+        <div class=" text-4xl lg1:text-7xl font-bold caveat text-gradasi1 ">
             FOR YOUR INFORMATION
         </div>
         <div class="flex pl-3 lg1:pl-16 mt-11">
@@ -107,7 +130,7 @@
     <div class=" text-white">
         <!-- <img class="w-[400px] h-[300px] absolute" src="/asset/img3.png" alt=""> -->
         <div
-            class="px-10 lg1:text-3xl pt-24  w-screen h-[200px] bg-[#6F584E] bg-no-repeat bg-cover bg-center flex  bg-[url(../asset/bg1.png)]">
+            class="px-10 lg1:text-3xl pt-24 lg1:pt-60 w-screen h-[200px] lg1:h-[350px] bg-[#6F584E] bg-no-repeat bg-cover bg-center flex  bg-[url(../asset/bg1.png)]">
 
             mari!!
             <br class="text-red-800">
@@ -120,7 +143,7 @@
 
     <!-- konten -->
     <div class="lg1:flex px-20 mt-10 items-center">
-        <img class="h-[640px]"
+        <img class="w-[700px] "
             src="https://semutaspal.com/wp-content/uploads/2022/09/9aa2f5ff1c7e1398b5fbed74de53bd62.jpg" alt="">
         <div class="ml-6">
             <div class="text-4xl lg1:text-7xl font-bold caveat">

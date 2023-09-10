@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 /* font Caveat Brush */
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
-.caveat {
-    font-family: 'Caveat Brush', cursive;
-}
 
 ::-moz-selection {
     color: #fff;
@@ -27,5 +23,32 @@ body {
     -webkit-user-select: none
 }
 
+@font-face
+
+/*perintah untuk memanggil font eksternal*/
+    {
+    font-family: 'Caveat';
+    /*memberikan nama bebas untuk font*/
+    src: url('../font/CaveatBrush-Regular.ttf');
+    /*memanggil file font eksternalnya di folder nexa*/
+}
 
 
+.caveat {
+    font-family: 'Caveat';
+}
+
+.text-gradasi1 {
+    background: #CC9A51;
+    background: linear-gradient(to right, #CC9A51 30%, #8C4A3A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradasi2 {
+    background: #FFC994;
+    background: linear-gradient(to top right, #FFC994 32%, #F59C8E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
