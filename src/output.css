@@ -1201,6 +1201,11 @@ body {
     padding-right: 14rem;
   }
 
+  .lg1\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .lg1\:pl-12 {
     padding-left: 3rem;
   }
