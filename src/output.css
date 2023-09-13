@@ -886,6 +886,16 @@ video {
   padding-bottom: 1.75rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1176,6 +1186,10 @@ body {
     margin-top: 11rem;
   }
 
+  .lg1\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .lg1\:block {
     display: block;
   }
@@ -1279,6 +1293,11 @@ body {
   .lg1\:px-56 {
     padding-left: 14rem;
     padding-right: 14rem;
+  }
+
+  .lg1\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg1\:pl-12 {
