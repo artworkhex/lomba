@@ -582,6 +582,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -692,18 +697,6 @@ video {
 
 .h-\[60px\] {
   height: 60px;
-}
-
-.h-\[98vh\] {
-  height: 98vh;
-}
-
-.h-\[98\] {
-  height: 98;
-}
-
-.h-\[100\%\] {
-  height: 100%;
 }
 
 .h-screen {
