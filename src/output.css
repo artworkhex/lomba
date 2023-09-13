@@ -1055,11 +1055,11 @@ video {
 
 body {
   /* agar tidak bisa di select text dan img */
-  user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none
+  /* user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none */
 }
 
 @font-face
