@@ -16,6 +16,9 @@
 }
 
 body {
+/* scroll smoth */
+scroll-behavior: smooth;
+/* agar tidak bisa di select text dan img */
     user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
