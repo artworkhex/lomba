@@ -15,10 +15,17 @@
     background: #775f32;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    /* scroll smoth */
+    scroll-behavior: smooth;
+}
+
+
 body {
-/* scroll smoth */
-scroll-behavior: smooth;
-/* agar tidak bisa di select text dan img */
+
+    /* agar tidak bisa di select text dan img */
     user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -53,5 +60,5 @@ scroll-behavior: smooth;
     background: linear-gradient(to top right, #FFC994 32%, #F59C8E 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+
 }
